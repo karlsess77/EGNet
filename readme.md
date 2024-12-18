@@ -1,1 +1,1 @@
-![](./pic/Overall framework.png)
+![](pic/Overall framework.png)
