@@ -1,4 +1,3 @@
-# 这部分代码是为了给模型信息提供类别约束
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
