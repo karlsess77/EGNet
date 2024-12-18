@@ -84,11 +84,11 @@ def test_model(model, test_loader, excel_path, pth_pathdir):
 
 def main():
     args = parser.parse_args()
-    pth_pathdir = (f'lambda_0.8beta_1.0_bestwish')
+    pth_pathdir = (f'egnet_pth')
     test(args, pth_pathdir)
 
 def test(args, pth_pathdir):
-    excel_path = f'./outputs/bestresult/metrics.xlsx'
+    excel_path = f'./outputs/result/metrics.xlsx'
 
     os.makedirs(os.path.dirname(excel_path), exist_ok=True)
 
